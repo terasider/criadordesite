@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Fabrica de Sites</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Preencha os campos para obter um resultado ao lado</h2>
+            <form>
+                <input type="text" class="edit" value="" placeholder="Crie o título para a página">
+                <input type="text" class="edit" value="" placeholder="Digite o caminho CSS da página">
+                <input type="text" class="edit" value="" placeholder="Meta-Descrição">
+                <input type="text" class="edit" value="" placeholder="Digite as keywords">
+                <input type="text" class="edit" value="" placeholder="Forma canônica do site">
+                <input type="text" class="edit" value="" placeholder="Propriedade Google Analytics se houver">
+                <input type="text" class="edit" value="" placeholder="Digite o primeiro título H1 do site">
+                <input type="text" class="edit" value="" placeholder="Digite o primeiro título H2 do site">
+                <input type="text" class="edit" value="" placeholder="Digite o primeiro título H3 do site">
+                <input type="text" class="edit" value="" placeholder="Digite segundo título H3">
+                <input type="text" class="edit" value="" placeholder="Digite terceiro título H3">
+                <input type="text" class="edit" value="" placeholder="Digite um título para o rodapé">
+                <input type="text" class="edit" value="" placeholder="Digite o autor da página">
+                <input type="text" class="edit" value="" placeholder="URL da primeira imagem">
+                <input type="text" class="edit" value="" placeholder="Descrição da primeira imagem">
+                <input type="text" class="edit" value="" placeholder="URL da segunda imagem">
+                <input type="text" class="edit" value="" placeholder="Descrição da segunda imagem">
+            </form>
+            <button onclick="reload()">Implementar</button>
+        </div>
+        <div class="main-content">
+            <h2>Página em foco</h2>
+            <div id="page"></div>
+            <div id="pageRender"></div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="templates/sitesimples.js"></script>
+</body>
+</html>
